@@ -35,14 +35,6 @@ To better understand the underlying patterns, a seasonal decomposition was perfo
 ### 3. Forecasting with Prophet
 The Prophet library was used to build the forecasting model. The model was fit on the *entire* historical dataset and then used to generate a forecast for the next 365 days.
 
-The main forecast plot shows the model's prediction against the historical data.
-
-![Prophet Forecast](forecast.png)
-
-The components plot breaks down the forecast into its trend and seasonal patterns.
-
-![Forecast Components](components.png)
-
 ---
 
 ## 🎯 Key Findings
